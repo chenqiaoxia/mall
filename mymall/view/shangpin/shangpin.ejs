@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/guanli.css">
+  <style type="text/css">
+  .insert{
+    margin-top: 60px;
+  }
+  .img{
+    width: 60px;
+    height: 60px;
+
+  }
+  tr #tun .img{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  </style>
+</head>
+<body>
+	<div class="box">
+		<div class="nav_top">
+			<img src="../images/logo.png" alt="" class="pull-left">
+			<h1 class="pull-left">后台管理系统</h1>
+			<h3 class="pull-right">欢迎回来：<%= name%></h3>
+		</div>
+		<div >
+			<div class="row">
+				<div class="col-md-2 left"><% include nav.ejs %></div>
+  				<div class="col-md-10">
+            <a href="/admin/shangpin/add" class="btn btn-info insert">插入数据</a>
+  					<table class="table table-bordered">
+                       <div class="bs-example" data-example-id="bordered-table">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th class="text-center">序号</th>
+          <th class="text-center">产品编号</th>
+          <th class="text-center">产品名称</th>
+          <th class="text-center">产品图片</th>
+          <th class="text-center">产品描述</th>
+          <th class="text-center">产品价格</th>
+          <th class="text-center">产品评价</th>
+          <th class="text-center">产品销量</th>
+          <th class="text-center">产品操作</th>
+        </tr>
+      </thead>
+      <tbody>
+      	<% for(i=0;i<data.length;i++){ %>
+        <tr>
+          <th scope="row" class="text-center"><%= i+1%></th>
+          <td class="text-center"><%= data[i].goods_id%></td>
+          <td class="text-center"><%= data[i].goods_name%></td>
+          <td class="text-center" id="tu"><img src="../images/<%= data[i].goods_img%>" alt="" class="img"></td>
+          <td class="text-center"><%= data[i].goods_desc%></td>
+          <td class="text-center"><%= data[i].goods_price%></td>
+          <td class="text-center"><%= data[i].pingjia%></td>
+          <td class="text-center"><%= data[i].xiaoliang%></td>
+          <td class="text-center">
+          	<a href="">查看</a>
+          	<a href="/admin/shangpin/del?id=<%= data[i].goods_id %>">删除</a>
+          	<a href="/admin/shangpin/update?id=<%= data[i].goods_id %>">修改</a>
+          </td>
+        </tr>
+        <% }%>
+      </tbody>
+    </table>
+    <nav aria-label="Page navigation">
+  <ul class="pagination fenye">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+  </div>
+					</table>
+  				</div>
+			</div>
+		</div>
+		<div class="button">
+			版权所有：XXXX
+		</div>
+	</div>
+</body>
+</html>

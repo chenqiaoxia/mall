@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/guanli.css">
+</head>
+<body>
+	<div class="box">
+		<div class="nav_top">
+			<img src="../images/logo.png" alt="" class="pull-left">
+			<h1 class="pull-left">后台管理系统</h1>
+			<h3 class="pull-right">欢迎回来：<%= name%></h3>
+		</div>
+		<div >
+			<div class="row">
+				<div class="col-md-2 left"><% include nav.ejs %></div>
+  				<div class="col-md-10"><p><%= data%></p></div>
+			</div>
+		</div>
+		<div class="button">
+			版权所有：XXXX
+		</div>
+	</div>
+</body>
+</html>
+</html>

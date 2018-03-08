@@ -1,0 +1,285 @@
+.list_content_left ul{
+	width: 92%;
+	border: 1px solid #000;
+	padding: 15px;
+	
+}
+.list_content_left ul li{
+	margin-bottom: 20px;
+}
+.list_content_left ul li img{
+	width: 100%;
+}
+.list_content_left ul li .dec{
+	word-break: break-all;
+    word-wrap: break-word;
+}
+.list_content_left ul li .prie{
+	color: #e4393c;
+    font-weight: 700;
+    font-family: verdana;
+    font-size: 14px;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.list_content_rigth{
+	width: 100%;
+	overflow: hidden;
+}
+.list_desc1{
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.list_desc1 span{
+	color: #ffaa71;
+}
+.list_item{
+	width: 20%;
+	padding: 10px;
+	float: left;
+	margin-top: 5px;
+	border: 1px solid #fff;
+	transition: all .2s linear;
+}
+.list_item:hover{
+	border-color: #e9e9e9;
+	box-shadow: 0 0 2px 2px #f8f8f8;
+}
+.goods_type_item{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.l_i_img{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.goods_type_item img{
+	padding: 5px;
+	border: 1px solid #ddd;
+	margin: 1px;
+}
+.p_list{
+	color: #e4393c;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Verdana;
+    margin: 10px 0;
+}
+.mb8{
+	margin-bottom: 8px;
+}
+.J_selectorLine{
+	border-bottom: 1px solid #DDD;
+    background: #f3f3f3;
+    line-height: 34px;
+    display:flex;
+    flex-direction: row;
+}
+.sl-key{
+	width: 10%;
+    padding-left: 10px;
+}
+.sl-value{
+	width: 90%;
+	background: #fff;
+	padding-left: 10px;
+	font-size: 24px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.J_valueList{
+	padding-top: 10px;
+    margin-bottom: 10px;
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.J_valueList li{
+	width: 116px;
+    height: 48px;
+    border: 1px solid #DDD;
+    /*margin: -1px -1px 0 0;*/
+    background: #FFF;
+    text-align: center;
+    
+}
+.J_valueList li:hover{
+	color: #e4393c;
+	border:1px solid #e4393c;
+	cursor: pointer;
+}
+.J_valueList li img{
+	margin: 5px 6px;
+}
+.J_valueList li span{
+	line-height: 48px;
+	font-size: 12px;
+	text-align: center;
+}
+.J_valueList li span:hover{
+	
+}
+.product_type{
+	border: 1px solid #DDD;
+	position: relative;
+}
+.sl-ext{
+	display: flex;
+	flex-direction: row;
+}
+.sl-ext .sl-e-more{
+	height: 23px;
+    line-height: 23px;
+    border: 1px solid #DDD;
+    padding: 3 3px;
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+}
+.valueList{
+	margin-bottom: 0;
+}
+.valueList li{
+	margin-right: 20px;
+	float: left;
+	font-size: 12px;
+	color: #005aa0;
+	cursor: pointer;
+	z-index: 200;
+}
+.sel-li{
+	border: 1px solid #ccc;
+	padding:0px 5px;
+	line-height: 20px;
+	margin-top: 5px;
+	z-index: 100;
+}
+.sel-li-select{
+	border-bottom:medium none;
+	position: relative;
+	background-color: #fff;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mt3{
+	margin-top: 5px;
+}
+.sel-gaoji-other{
+	width: 100%;
+	/*height: 30px;*/
+	background-color: #fff;
+	position: absolute;
+	top: 247px;
+	left: 0;
+	border: 1px solid #999;
+	box-shadow: 1px 1px 1px rgba(153,153,153,.3);
+	z-index: 100;
+
+}
+.sel-gaoji-other ul{
+	padding: 10px;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+.sel-gaoji-other ul li{
+	float: left;
+	margin-right: 50px;
+}
+.filter{
+	border-top: 1px solid #DDD;
+    margin-bottom: 5px;
+	width: 100%;
+}
+.f-line{
+	width: 100%;
+	height: 37px;
+    background: #F1F1F1;
+    padding: 6px 8px;
+    border-bottom: 1px solid #E7E3E7;
+}
+.f-sort{
+	/*overflow: hidden;*/
+	margin-right: 12px;
+}
+.f-sort a{
+	height: 25px;
+    border: 1px solid #CCC;
+    line-height: 23px;
+    color: #333;
+    float: left;
+    padding:5px 9px;
+    background: #FFF;
+    margin-left: -1px;
+}
+.f-sort a{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.f-sort-span{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
+	margin-left: 3px;
+}
+.f-datagrid{
+	float: left;
+    width: 71px;
+    height: 25px;
+    padding-left: 1px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.fdg-item{
+	width: 15px;
+    height: 23px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    float: left;
+    background-color: #fff;
+    position: relative;
+}
+.def-bar{
+	width: 15px;
+	position: absolute;
+    left: -1px;
+    bottom: -1px;
+    border: 1px solid #aaa;
+    overflow: hidden;
+    background: #e5e5e5;
+}
+.f-line{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.f-price-set input{
+	width: 60px;
+	height: 23px;
+    line-height: 17px;
+    border: 1px solid #CCC;
+    padding: 3px;
+}
+.f-line-addr{
+	height: 25px;
+	width: 160px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.f-feature{
+	margin-left: 10px;
+}
+.ant-checkbox + span{
+	color: #333;
+}
+.ant-checkbox + span:hover{
+	color: #f00
+}

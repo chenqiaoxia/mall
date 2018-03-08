@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../../lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../css/guanli.css">
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="nav_top">
+			<img src="../../images/logo.png" alt="" class="pull-left">
+			<h1 class="pull-left">后台管理系统</h1>
+			<h3 class="pull-right">欢迎回来：<%= name%></h3>
+		</div>
+		<div >
+			<div class="row">
+				<div class="col-md-2 left"><% include nav.ejs %></div>
+  				<div class="col-md-10">
+  					<div class="box1">
+  					<form  method="post" action="/admin/shangpin/update" enctype="multipart/form-data">
+ 						<div class="form-group">
+ 						  <input type="hidden" class="form-control" name="goods_id" value="<%= data.goods_id%>">
+ 						</div>
+ 						<div class="form-group">
+ 						  <label for="exampleInputEmail1">产品名称：</label>
+ 						  <input type="text" class="form-control" name="goods_name" value="<%= data.goods_name%>">
+ 						</div>
+ 						<div class="form-group">
+ 						  <label for="exampleInputEmail1">产品描述：</label>
+ 						  <input type="text" class="form-control" name="goods_desc" value="<%= data.goods_desc%>">
+ 						</div>
+ 						<div class="form-group">
+ 						  <label for="exampleInputEmail1">产品价格：</label>
+ 						  <input type="text" class="form-control" name="goods_price" value="<%= data.goods_price%>">
+ 						</div>
+ 						<div class="form-group">
+ 						  <label for="exampleInputEmail1">产品评价：</label>
+ 						  <input type="text" class="form-control" name="pingjia" value="<%= data.pingjia%>">
+ 						</div>
+ 						<div class="form-group">
+ 						  <label for="exampleInputEmail1">产品销量：</label>
+ 						  <input type="text" class="form-control" name="xiaoliang" value="<%= data.xiaoliang%>">
+ 						</div>
+ 						<div class="form-group">
+ 						  <label for="exampleInputEmail1">产品图片：</label>
+ 						  <input type="file" name="goods_img" >
+ 						</div>
+ 						<button type="submit" class="btn btn-warning">提交</button>
+ 						<a class="btn btn-success" href="/admin/shangpin">取消</a>
+					</form>
+					</div>
+  				</div>
+			</div>
+		</div>
+		<div class="button">
+			版权所有：XXXX
+		</div>
+	</div>
+</body>
+</html>

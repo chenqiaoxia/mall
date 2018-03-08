@@ -1,0 +1,131 @@
+.menucontent{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction:row;
+	position: relative;
+    overflow: hidden;
+}
+.menucontent .menuleft{
+	width: 234px;
+	height: 500px;
+	background: rgba(0,0,0,0.6);
+	/*position: absolute;
+	left: 0;
+	top: 0;*/
+    /*z-index: 1000000;*/
+}
+.menucontent .menuright{
+	width: 100%;
+}
+.menuright div img{
+    width: 100%;
+    height: 500px;
+}
+.site-category-list{
+	color: #fff;
+	padding: 20px 0;
+	font-size: 14px;
+}
+.category-item{
+	padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
+}
+
+.menuright .lunbodot{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    display: flex;
+    flex-direction:row;
+    right: 50px;
+}
+.menuright .lunbodot li{
+	width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: left;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.prev{
+	position: absolute;
+    top: 50%;
+    left: 234px;
+    z-index: 999;
+    width: 41px;
+    height: 69px;
+    margin-top: -35px;
+    color: #757575;
+    background: url('https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png') no-repeat -84px 50%;
+}
+.prev:hover{
+    background: url('https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png') no-repeat 0px 0px;
+}
+.next{
+	position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 999;
+    width: 41px;
+    height: 69px;
+    margin-top: -35px;
+    color: #757575;
+    background: url('https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png') no-repeat -125px 50%;
+}
+.next:hover{
+    background: url('https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png') no-repeat -42px 50%;
+}
+.children{
+	display: none;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    z-index: 10000;
+    height: 500px;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+}
+.children-list li{
+    width: 256px;
+    height: 76px;
+    padding: 18px 20px;
+    line-height: 40px;
+}
+.children-list li img{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+.children-list li span{
+	font-size: 14px;
+}
+.children ul{
+	float: left;
+	display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    height: 500px;
+}
+.menucontent .menuleft_box{
+    width: 1226px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -613px;
+    height:500px;
+    z-index: 100;
+}
+.children_box{
+    overflow: hidden;
+}
+.menuright .ant-carousel .slick-slide{
+    padding-left: 0px;
+    padding-right: 0px;
+}

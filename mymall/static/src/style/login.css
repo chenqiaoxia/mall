@@ -1,0 +1,13 @@
+.login{
+	width: 400px;
+	margin: 10px auto;
+}
+.login_box{
+	margin-bottom: 30px;
+}
+.ant-col-24{
+	text-align: center;
+}
+.login_btn{
+	width: 80%;
+}

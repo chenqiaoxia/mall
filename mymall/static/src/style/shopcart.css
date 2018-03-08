@@ -1,0 +1,84 @@
+.tit_all_goods{
+	font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #e4393c;
+}
+.ant-table-row{
+}
+.ant-table-tbody{
+}
+#whdioa .ant-tabs-tab{
+	color:red;
+}
+.p-goods{
+	/*width: 300px;*/
+	padding: 15px 0 10px;
+	display: flex;
+    flex-direction: row;	
+} 
+.p-goods img{
+	width: 80px;
+    height: 80px;
+    border: 1px solid #eee;
+    margin-right: 10px;
+}
+.goods_dec{
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+.goods_dec .decc{
+	height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #666;
+}
+.return-y{
+	display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.return-y-icon{
+	display: inline-block;
+    width: 17px;
+    height: 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    background: url('https://misc.360buyimg.com/user/cart/css/i/cart-icons-201708.png') no-repeat;
+}
+.ftx-08{
+	padding: 1px 4px 0 7px;
+    height: 16px;
+    line-height: 16px;
+    color: #6485cb;
+}
+.p-props-new{
+	width: 130px;
+    height: 80px;
+    line-height: 20px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+.p-props-new .props-txt{
+	width: 130px;
+}
+.h80{
+	height: 80px;
+}
+element.style {
+}
+.home-star-goods .goods-list li {
+    height: 300px;
+    padding-top: 39px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    text-align: center;
+    background: #fafafa;
+}
+.xxx{
+	height: 80px;
+	line-height: 80px;
+	padding: 15px 0 10px;
+}

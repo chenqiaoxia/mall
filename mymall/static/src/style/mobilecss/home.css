@@ -1,0 +1,165 @@
+/*最外层div的背景颜色*/
+.modiv{
+    background-color: #f5f5f9;
+}
+.bgc{
+	background-color: #fff;
+}
+/*头部搜索框的样式*/
+.header-content{
+	background-size:cover;
+	background-image: url("https://m.360buyimg.com/mobileshopcms/jfs/t18958/232/164601734/26147/147acb77/5a604d16Nad715326.png");
+	height: 4.1rem;
+    padding: 0.7rem 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+}
+.mt{
+	margin-top: 4.1rem;
+}
+.header-search{
+	width: 90%;
+	position: relative;
+}
+.header-content input{
+	width: 100%;
+	height: 2.7rem;
+    padding: 1rem 2.33rem;
+	border: 1px solid rgba(255,255,255,0.3);
+	border-radius: 20px;
+	background-color:rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+
+.header-menu{
+	height: 2.36rem;
+    width: 3.33rem;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAdCAYAAACwuqxLAAACRklEQVRIia2VPWsUURSGn9klm5V8KRG1tBCJgSA2FioENRDFxsrSjyZFfkEs1J8gamVhY61CwGgjCWkURLAyFkmhIBKMkbggGr8eiz1DJpPN7k7MgZdz58x533PmHuZeVFrglHpXnVdXA/MRO92K3+zlgDpja5uJ3EIFhtVaCCypV9UhtTMwFLGlyKkFp60CA+pKEB+qfU2+sk99ELkrjb4kT0jUF0F4FM+tZpREIwY3aVZgJLMtvW2Ip+hVPwV3JPuuxHq7EP4OUKN9qwE3cxp1y3WyEF0cLtB9iqHgLmTjiZqttwpUgGqsi1glOD+BzjSY36IfBUWzVg2/ruN8gQ/hB7ZQYH9Oo2GBV+HPb6HAufDP10VzgxqNQX1UewoMuCc4hkbTP3k6EifVchvi5cg1uIWOivtqRxPxjsjRNo+KFGddsydqd4OcbvVpJu9MI638kAFGgXux/gXMAeUGeWXgTeQQnNENWbmK4+rv6GhWHWxjBoORa3DHN9uiMfVv4LpaakM8RUm9keGP5Qscs34Vqk4UEM5jIjRWQxPUijoXL279h3iK26E1p1ZQr0TgnVrdhgJV9X1oXs7+WBe3QTzFpdCcTtSvQC+wG1gudvxsaruAL0CtBCQR3LlN4gB7wiclYCoepoAT2yB+HJiM9eNE3QvMAIci+BZ4BrwGFoBF6lv3jbVbrhPoAvqBfcAB4AgwktM5mQ6lS72mLvr/thhaXbrxTi4DR4Fh6rfaQerD7wd2BAC+B5aBz8B8dDwLvAT+pIL/ABBUte6BVae3AAAAAElFTkSuQmCC");
+	background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 2.22rem 2.27rem;
+}
+/*分类网格*/
+.grids{
+	margin-top: 0.1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 1rem;
+}
+.grimg{
+	width: 8.0rem;
+    height: 8.0rem;
+}
+.grimg img{
+	width: 100%;
+	height: 100%;
+}
+/*底部tabber*/
+.tabber{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-top: 2px solid #F1F1F1;
+}
+.tbimg{
+	height: 5rem;
+    width: 6rem;
+}
+.tbimg img{
+	width: 100%;
+	height: 100%;
+}
+/*新品推荐*/
+.newgood{
+	margin-top: 1rem;
+}
+.ngimg{
+	width: 100%;
+}
+.ngimg img{
+	width: 100%;
+}
+/*每一项*/
+.moitem{margin-top: 1rem;margin-bottom: 6rem;}
+.mo-prodect{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.moi{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.moi img{
+	width: 14.5rem;
+    height: 14.5rem;
+
+}
+.moi .mo-dec{
+	height: 3rem;
+	overflow: hidden;
+}
+.moi p{
+	margin-top: 0.5rem;
+}
+.moi .mo-price{
+	color: red;
+}
+/*搜索模块*/
+.seatop{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.7rem 0rem;
+	background: #efefef url("https://st.360buyimg.com/so/images/layout/header-bg.png?v=2") repeat-x 0 0;
+    background-size: 100% 44px;
+    border-bottom: 1px solid #D7D7D7;
+}
+.seatop input{
+	width: 75%;
+	border: 1px solid #ccc;
+	height: 2.8rem;
+    padding: 1rem 2.33rem;
+    border-radius: 20px;
+}
+.seatop p{
+	font-size: 1.3rem;
+	padding:0rem 0.8rem;
+}
+.mosearch .sea_i{
+	margin-bottom: 2rem;
+	padding: 0rem 0.5rem;
+	overflow: hidden;
+}
+.mosearch .sea_i li{
+	float: left;
+	padding: 0.2rem 0.7rem;
+	background-color: #F0F2F5;
+	margin: 0.5rem 0.8rem;
+}
+.sea_it{
+	display: flex;
+	flex-direction: column;
+}
+.sea_i_p{
+	padding: 1rem 1rem;
+	font-size: 1.4rem;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

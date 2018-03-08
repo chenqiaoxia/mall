@@ -1,0 +1,143 @@
+.other{
+
+}
+.oth_title{
+	font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+/*.oth_li{
+	float: left;
+	width: 296px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}*/
+.oth_h2{
+	margin: 0 10px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffac13;
+}
+.oth_box{
+	width: 296px;
+	height: 374px;
+    padding: 45px 0 0;
+    border-top:1px solid #ffac13;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.oth_box .oth_ul{
+	width: 300%;
+    position: absolute;
+    /*top: 0;*/
+}
+.oth_h4{
+	font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+.oth_dec{
+	height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 5px;
+    color: #b0b0b0;
+}
+.oth_pri{
+	color: #333;
+	height: 21px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.oth_d_img{
+	width: 100%;
+    height: 154px;
+    text-align: center;
+}
+.oth_d_img img{
+	text-align: center;
+    margin: 0 auto;
+}
+.oth_dot{
+	width: 100%;
+	text-align: center;
+}
+.oth_dot_li{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #f5f5f5;
+    border-radius: 6px;
+    text-align: left;
+    overflow: hidden;
+    background-color: #b0b0b0;
+    display: inline-block;
+    margin: 0px 10px;
+     
+}
+.oth_div{
+    width: 20px;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    color: #fafafa;
+    background-color: rgba(66,66,66,0.6);
+    /*background-color: red;*/
+}
+.oth_prev{
+    left: 0;
+}
+.oth_next{
+    right: 0;
+}
+.other_box{
+    width: 296px;
+    overflow: hidden;
+    position: relative;
+}
+.ant-carousel .slick-slide {
+    width: 296px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.oth_box .oth .ant-carousel .slick-initialized .slick-dots li{
+    background-color: #f00;
+}
+.oth_box .oth .ant-carousel .slick-initialized .slick-dots .slick-active{
+    background-color: #0f0;
+}
+.oth_box .oth .ant-carousel .slick-dots li.slick-active button{
+    background-color: #000;
+}
+.oth_box .oth .ant-carousel .slick-dots{
+    bottom:-10px;
+}
+.oth .swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: -20px;
+}
+.oth .swiper-container{
+    overflow: visible;
+}
+.othercontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

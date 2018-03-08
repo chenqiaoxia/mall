@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../../lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../css/guanli.css">
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="nav_top">
+			<img src="../../images/logo.png" alt="" class="pull-left">
+			<h1 class="pull-left">后台管理系统</h1>
+			<h3 class="pull-right">欢迎回来：<%= name%></h3>
+		</div>
+		<div >
+			<div class="row">
+				<div class="col-md-2 left"><% include nav.ejs %></div>
+  				<div class="col-md-10">
+  					<div class="box1">
+  					  <form method="post" action="/admin/yonghu/add">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">用户名：</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="请输入用户名" name="username">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">密码：</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入密码" name="userpwd">
+                        </div>  
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">手机：</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="请输入手机号" name="tel">
+                        </div>                
+                       <button type="submit"  class="btn btn-info">插入</button>
+                      </form>
+					</div>
+  				</div>
+			</div>
+		</div>
+		<div class="button">
+			版权所有：XXXX
+		</div>
+	</div>
+</body>
+</html>

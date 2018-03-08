@@ -1,0 +1,73 @@
+    h1{
+		margin-left: 50px;
+		line-height: 100px;
+	}
+	.u1{
+		width: 100%;
+		height: 600px;
+	   list-style: none;
+	   overflow: hidden;
+	}
+	.u1 li{
+		float: left;
+		width: 100%;
+		text-align: center;
+		font-size: 24px;
+		border-bottom: 1px solid #125184;
+		padding: 30px 0px;
+	}
+	a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.nav_top{
+		height: 100px;
+		width: 100%;
+		background-color: #B6DFEA;
+	}
+	.left{
+		background-color:#1A739D ;
+	}
+	.rigth{
+		background-color: red;
+	}
+	.xinxi{
+		background-color: #15304B;
+	}
+	.button{
+		height: 40px;
+		background-color:  #B6DFEA;
+		text-align: center;
+		line-height: 40px;
+		font-size: 18px;
+		color: white;
+	}
+	h3{
+		line-height: 100px;
+		margin-right: 50px;
+	}
+	img{
+		height: 80px;
+		width: 80px;
+		margin-left: 100px;
+		margin-top: 10px;
+	}
+	tbody td a{
+		color: blue
+	}
+	.box1{
+		width: 50%;
+		margin: 50px;
+	}
+	.fenye{
+		position: fixed;
+		bottom: 80px;
+		left: 700px;
+	}
+	.user_tabel{
+		width: 50%;
+		margin-top: 50px;
+	}
+	.u_tabel{
+		margin-top: 50px;
+	}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/guanli.css">
+</head>
+<body>
+  <div class="box">
+    <div class="nav_top">
+      <img src="../images/logo.png" alt="" class="pull-left">
+      <h1 class="pull-left">后台管理系统</h1>
+      <h3 class="pull-right">欢迎回来：<%= name%></h3>
+    </div>
+    <div >
+      <div class="row">
+        <div class="col-md-2 left"><% include nav.ejs %></div>
+          <div class="col-md-10">
+            <div class="user_tabel">
+            <a href="/admin/yonghu/add" class="btn btn-info insert">插入数据</a>
+             <div class="u_tabel">
+             <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>用户名</th>
+                          <th>手机号</th>
+                          <th>操作</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <% for(i=0;i<data.length;i++){ %>
+                        <tr>
+                          <td><%= data[i].username%></td>
+                          <td><%= data[i].tel%></td>
+                          <td><a href="/admin/yonghu/del?username=<%= data[i].username %>">删除</a></td>
+                        </tr>
+                        <% }%>
+               </tbody>
+             </table>
+           </div>
+           </div>
+          </div>
+      </div>
+    </div>
+    <div class="button">
+      版权所有：XXXX
+    </div>
+  </div>
+</body>
+</html>
+</html>
